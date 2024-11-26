@@ -1,0 +1,94 @@
+/* Body */
+body {
+  background-color: #f0e6d6; /* Cokelat muda */
+  font-family: sans-serif;
+  position: relative;
+  background-image: url(/tugasakhirachmad/img/bg.png);
+  background-size: cover;
+}
+
+/* Form Login */
+.login-form {
+  width: 350px;
+  margin: 80px auto;
+  padding: 50px;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(0.4rem);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.25);
+}
+
+/* Judul */
+.login-form h2 {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #000000; /* Hitam */
+  filter: drop-shadow(1px 1px 20px #ffffff);
+}
+
+/* Input */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #000000;
+}
+
+/* Tombol Login */
+.login-form button {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #b6895b; /* Merah tua */
+  color: #ffffff; /* Putih */
+  border: none;
+  border-radius: 20px;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  color: var(--primary);
+}
+
+.login-form button::after {
+  content: "";
+  display: block;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+/* Link Lupa Password */
+.login-form a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #000000; /* Hitam */
+}
+
+.login-form a:hover {
+  color: #ffffff;
+}
+
+.login-form a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+  transition: 1s ease-in-out;
+}
